@@ -1,0 +1,36 @@
+{
+  "name": "npm-winston-logger",
+  "description": "Integrate the winston log",
+  "version": "0.1.1",
+  "main": "lib/index.js",
+  "keywords": [
+    "nodejs",
+    "winston",
+    "log"
+  ],
+  "author": {
+    "name": "Daniel Chen",
+    "email": "392290902@qq.com",
+    "url": "https://github.com/qingdaojunzuo/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/qingdaojunzuo/npm-winston-logger.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "dependencies": {
+    "underscore": ">=1.8.0",
+    "moment": ">=2.12.0",
+    "source-map": ">=0.3.0",
+    "winston": ">=2.2.0",
+    "winston-daily-rotate-file": ">=1.3.1",
+    "winston-logstash": ">=0.2.11"
+  },
+  "engines": {
+    "node": ">=0.10.46"
+  }
+}
